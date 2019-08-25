@@ -1,1 +1,124 @@
 
+ *{
+box-sizing: border-box;
+}
+h1{
+text-align: center;
+margin-top: 5%;
+}
+h2{
+float: right;
+color:#FFFEFE
+margin-bottom: 0 px;
+margin-top: 0px;
+width: 150px;
+padding: 2px;
+
+
+border:   1px solid black;
+  
+
+  }
+
+
+h2#Chicken{
+background-color:#C892AC
+}
+
+h2#Beef{
+background-color:#8E2813
+}
+
+h2#Sushi{
+
+  background-color:#E7CF24
+}
+div#container {
+  position: relative;
+  width: 100%
+
+}
+div > section > section {
+  background-color:#8A8789
+
+  height: 300px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+body{
+  background-color:#92E2F6
+}
+
+@media (max-width: 767px){
+  .sm1, .sm2, .sm3, .sm4, .sm5, .sm6, .sm7, .sm8, .sm9, .sm10, .sm11, .sm12{
+    float: left;
+    position: relative;
+  }
+  
+
+  .sm1{ width: 8.33%; }
+  .sm2{ width: 16.66%; }
+  .sm3{ width: 25%; }
+  .sm4{ width: 33.33%; }
+  .sm5{ width: 41.66%; }
+  .sm6{ width: 50%; }
+  .sm7{ width: 58.33%; }
+  .sm8{ width: 66.66%; }
+  .sm9{ width: 75%; }
+  .sm10{ width: 83.33%; }
+  .sm11{ width: 91.66%; }
+  .sm12{ width: 100%; }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .md1, .md2, .md3, .md4, .md5, .md6, .md7, .md8, .md9, .md10, .md11, .md12{
+    float: left;
+    position: relative;
+  }
+
+  
+  .md1{ width: 8.33%;}
+  .md2{ width: 16.66%;}
+  .md3{ width: 25%; }
+  .md4{ width: 33.33%;}
+  .md5{ width: 41.66%;}
+  .md6{ width: 50%; }
+  .md7{ width: 58.33%;}
+  .md8{ width: 66.66%;}
+  .md9{ width: 75%;}
+  .md10{ width: 83.33%;}
+  .md11{ width: 91.66%;}
+  .md12{ width: 100%;}
+  #special{
+    width: 100%
+  }
+}
+
+
+@media (min-width: 992px){
+  .l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9, .l10, .l11, .l12{
+    float: left;
+    position: relative;
+  }
+  .l1{ width: 8.33%; }
+  .l2{ width: 16.66%; }
+  .l3{ width: 25%; }
+  .l4{ width: 33.33%; }
+  .l5{ width: 41.66%; }
+  .l6{ width: 50%; }
+  .l7{ width: 58.33%; }
+  .l8{ width: 66.66%; }
+  .l9{ width: 75%; }
+  .l10{ width: 83.33%; }
+  .l11{ width: 91.66%; }
+  .l12{ width: 100%; }
+}
+
+p {
+margin-left: 5px;
+  clear: both;
+} 
+
+
+</style>
